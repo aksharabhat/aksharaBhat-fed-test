@@ -7,6 +7,7 @@
 3. Checkout to master branch(If not present in master branch) as the code stays in master branch: "git checkout master"
 4. Install all dependencies: "npm install"
 5. Run the command to start the server: "npm start"
+6. If any of the modules were not installed correctly during npm install, there is chances that error might pop up after npm start. Please install those modules manually to make the react code work. 
 
 ### `npm start`
 
