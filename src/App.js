@@ -1,23 +1,30 @@
-import logo from './logo.svg';
 import './App.css';
+import { Route, Redirect, Router } from 'react-router-dom';
+import Cardvalues from './components/Card/CardValues'
+import { createBrowserHistory } from 'history';
+const browserHistory = createBrowserHistory();
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        User Profile
       </header>
+      <Router history={browserHistory}>
+        <Route path='/user-profile'>
+          <Cardvalues />
+        </Route>
+        <Redirect
+          exact
+          from="/"
+          to="/user-profile"
+        />
+      </Router>
+
+
+      <footer className="App-footer">
+        Developed By: Akshara C Bhat
+      </footer>
     </div>
   );
 }

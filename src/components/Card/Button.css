@@ -1,0 +1,18 @@
+.loadmore-button{
+    color: black;
+    font-weight: bolder;
+    border-radius: 10px;
+    height: 30px;
+    width: 100px;
+    background-color: rgb(166, 188, 230);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-color: rgb(31, 23, 150);
+}
+.loadmore-button:hover{
+    background-color: rgb(3, 48, 124);
+    cursor: pointer;
+    color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-color: rgb(31, 23, 150);
+}
