@@ -1,0 +1,2 @@
+1. I was not very sure about the part 2 of the exercise. I even mailed to the team regarding the same but there was no response hence I assumed it to be clicking on load more button should display more user profile cards(upto5) and implemented the same.
+2. Due to time contraints I have written 2 test cases.
